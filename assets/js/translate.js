@@ -2,7 +2,7 @@
 $.fn.translate = function(opt){
 	var sett = $.extend({default_lang: "en", langs: "#langs", source: "text"}, opt), attributes = {}, el = this;
 	function init(lang){
-		$(sett.langs+" option[value='"+lang+"']").attr("selected","selected");
+		$(sett.langs+" a[id='"+lang+"']");
 		set_lang(sett.source[lang]);
 	}
 	function set_lang(t){

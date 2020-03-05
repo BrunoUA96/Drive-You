@@ -704,8 +704,8 @@ a.btn-mod:focus{
 }
 
 .btn-mod.btn-w{
-  	color: #111;
-  	background: rgba(255,255,255, .8);
+  	color: #fff;
+  	background: #242424;
 }
 .btn-mod.btn-w:hover,
 .btn-mod.btn-w:focus{
@@ -3107,7 +3107,7 @@ a.logo:hover{
     color: #111;
 }
 .alt-features-icon img{
-    width: 100%;
+    width: 50px;
 }
 .alt-features-title{
     margin-bottom: 21px;
@@ -3360,12 +3360,15 @@ a.logo:hover{
 }
 .work-img{
 	position: relative;
-	overflow: hidden;
+    overflow: hidden;
+    height: 280px;
 }
 .work-img img{
 	width: 100%;
 	display: block;
-	overflow: hidden;
+    overflow: hidden;
+    object-fit: cover;
+    height: 100%;
 }
 .work-intro{
 	width: 100%;
@@ -3901,7 +3904,7 @@ a.logo:hover{
     position: absolute;
     top: 10px;
     left: 3px;
-    color: #fff;
+    color: #000;
     text-align: center;
     line-height: 23px;
 }
@@ -3913,7 +3916,7 @@ a.logo:hover{
     position: absolute;
     top: 0;
     left: 0;
-    background: #111;
+    background: #fff;
     
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -4168,9 +4171,9 @@ a.logo:hover{
 .footer-social-links a:hover{
     color: #fff;
 }
-.footer-social-links a:hover:before{
+/* .footer-social-links a:hover:before{
     background: #111;
-}
+} */
 
 a.link-to-top{
     position: absolute;
