@@ -3,6 +3,7 @@ $.fn.translate = function(opt){
 	var sett = $.extend({default_lang: "en", langs: "#langs", source: "text"}, opt), attributes = {}, el = this;
 	function init(lang){
 		$(sett.langs+" a[id='"+lang+"']");
+		$('#'+lang).addClass('ativo');
 		set_lang(sett.source[lang]);
 	}
 	function set_lang(t){
@@ -29,6 +30,8 @@ $.fn.translate = function(opt){
 		var lang = $(this).attr("id");
 		if(sett.source.hasOwnProperty(lang)){
 		$.cookie("lng",lang);
+		$('.localPicker .ativo').removeClass('ativo');
+		$(this).addClass('ativo');
 		set_lang(sett.source[lang]);
 		}
 		return false;
