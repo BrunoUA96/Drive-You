@@ -48,10 +48,17 @@
             transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
         }
 
-
         #langs a:hover,
         .localPicker .ativo {
             color: #fcd500;
+        }
+
+        .nav-tabs svg:hover {
+            fill: #fcd500;
+        }
+
+        .nav-tabs .active svg {
+            fill: #fcd500;
         }
     </style>
 </head>
@@ -209,7 +216,7 @@
                         <a href="#service-branding" data-toggle="tab">
 
                             <div class="alt-tabs-icon">
-                                <img style="width: 50px;" src="assets/images/elementos/sobre/hand-like.svg" alt="">
+                                <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>hand-like</title><path d="M6 13.17a3.001 3.001 0 1 1-2 0V11a1 1 0 0 1 .684-.949l2.674-.891 3.81-5.715A1 1 0 0 1 12 3h2.875a1 1 0 0 1 .987 1.164L15.056 9H20a1 1 0 0 1 1 1v5a1 1 0 0 1-.072.371l-2 5A1 1 0 0 1 18 21H9a1 1 0 0 1 0-2h8.323L19 14.807V11h-5.125a1 1 0 0 1-.986-1.164L13.695 5h-1.16l-3.703 5.555a1 1 0 0 1-.516.394L6 11.72v1.45zM5 17a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" fill="" fill-rule="nonzero"/></svg>
                             </div>
                         </a>
                     </li>
@@ -219,7 +226,7 @@
                         <a href="#service-development" data-toggle="tab">
 
                             <div class="alt-tabs-icon">
-                                <img style="width: 50px;" src="assets/images/elementos/sobre/timer.svg" alt="">
+                                <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>timer</title><path d="M13 8.083V14a1 1 0 0 1-2 0V7a1 1 0 0 1 1-1 8 8 0 1 1-3.503.806 1 1 0 1 1 .876 1.798A6 6 0 1 0 13 8.084zM11 4a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2h-2zm5.4 1.3a1 1 0 0 1 1.2-1.6l2 1.5a1 1 0 0 1-1.2 1.6l-2-1.5zM5.6 6.8a1 1 0 1 1-1.2-1.6l2-1.5a1 1 0 1 1 1.2 1.6l-2 1.5z" fill="" fill-rule="nonzero"/></svg>
                             </div>
                         </a>
                     </li>
@@ -227,7 +234,7 @@
                         <a href="#service-photography" data-toggle="tab">
 
                             <div class="alt-tabs-icon">
-                                <img style="width: 50px;" src="assets/images/elementos/sobre/github.svg" alt="">
+                                <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>github</title><path d="M6.54 16.74a1 1 0 1 1 1.253-1.558l2.12 1.706a1 1 0 0 1 .328 1.077c-.273.872-.475 1.525-.606 1.958l-.14.473c-.086.496-.44.894-1.001.894-.15-.051-.27-.092-.37-.128C4.435 19.657 2 16.052 2 11.999 2 6.477 6.477 2 12 2s10 4.477 10 10a10 10 0 0 1-6.104 9.21c-.136.054-.266.08-.39.08-.562 0-.915-.398-.987-.841a89.225 89.225 0 0 0-.38-1.264 725.22 725.22 0 0 0-1.316-4.196 1 1 0 0 1 .501-1.193c1.18-.598 1.676-1.197 1.676-1.797 0-.326-.125-.648-.372-.946a1 1 0 0 1-.202-.882l.018-.072-.13.078a1 1 0 0 1-.868.078A4.097 4.097 0 0 0 12 9.999c-.514 0-1.006.09-1.446.256a1 1 0 0 1-.868-.078l-.13-.078.018.072a1 1 0 0 1-.202.882c-.247.298-.372.62-.372.946 0 .6.495 1.199 1.676 1.797a1 1 0 1 1-.904 1.784C7.987 14.676 7 13.483 7 12c0-.637.183-1.247.521-1.792L7.03 8.242c-.216-.864.72-1.558 1.484-1.1l1.81 1.085A6.194 6.194 0 0 1 12 8c.578 0 1.143.077 1.677.227l1.809-1.085c.763-.458 1.7.236 1.484 1.1l-.491 1.966c.338.545.521 1.155.521 1.791 0 1.262-.715 2.314-2.027 3.157a631.441 631.441 0 0 1 1.156 3.697A8 8 0 0 0 12 4a8 8 0 0 0-4.128 14.853l.258-.834-1.59-1.28z" fill="" fill-rule="nonzero"/></svg>
                             </div>
                         </a>
                     </li>
@@ -345,7 +352,7 @@
 
                     <div class="col-sm-6">
 
-                        <div class="mt-140 mt-lg-80 mb-140 mb-lg-80">
+                        <div class="mt-90 mt-lg-80 mb-90 mb-lg-80">
                             <div class="banner-content">
                                 <h3 class="banner-heading font-alt">
                                     <span data-trans-banner_carro_title>
@@ -415,9 +422,11 @@
                                 <img src="assets/images/destinos/CabodeSaioVicente.jpg" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_1></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -430,9 +439,11 @@
                                 <img src="assets/images/destinos/CastelodePaderne.JPG" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_2></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -445,9 +456,11 @@
                                 <img src="assets/images/destinos/FortedeSantaCatarina.jpg" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_3></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -460,9 +473,11 @@
                                 <img src="assets/images/destinos/IgrejadeSaioLourencio.JPG" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_4></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -475,9 +490,11 @@
                                 <img src="assets/images/destinos/IlhadeTavira.jpg" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_5></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -490,9 +507,11 @@
                                 <img src="assets/images/destinos/PraiadaCoelha.jpg" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_6></span>
+                                   </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -505,9 +524,11 @@
                                 <img src="assets/images/destinos/PraiadaDonaAna.jpg" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_7></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -520,9 +541,11 @@
                                 <img src="assets/images/destinos/PraiadaRocha.JPG" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_8></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -535,9 +558,11 @@
                                 <img src="assets/images/destinos/PraiadeBenagil.jpg" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_9></span>
+                                   </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -550,9 +575,11 @@
                                 <img src="assets/images/destinos/PraiadoCamilo.jpg" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_10></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -565,9 +592,11 @@
                                 <img src="assets/images/destinos/Praiados3Irmaios.jpg" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_11></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -580,9 +609,11 @@
                                 <img src="assets/images/destinos/PraiaMarinha.JPG" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_12></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -595,9 +626,11 @@
                                 <img src="assets/images/destinos/PraiaPontadaPiedade.jpg" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_13></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -610,9 +643,11 @@
                                 <img src="assets/images/destinos/SeiFaro.jpg" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_14></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -625,9 +660,11 @@
                                 <img src="assets/images/destinos/SeiSilves3.JPG" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_15></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
@@ -640,9 +677,11 @@
                                 <img src="assets/images/destinos/ZooMarine.JPG" alt="Work" />
                             </div>
                             <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
+                                <h3 class="work-title">
+                                    <span data-trans-destinos_foto_16></span>
+                                    </h3>
                                 <div class="work-descr">
-                                    Lightbox
+                                    
                                 </div>
                             </div>
                         </a>
