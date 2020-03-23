@@ -4101,10 +4101,7 @@ a.logo:hover{
     -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
-.footer a:hover{
-    color: #111;
-     text-decoration: underline;
-}
+
 .footer-copy{
     margin-bottom: 5px;
     text-transform: uppercase;
@@ -6330,6 +6327,29 @@ section:hover .small-item-carousel .owl-next{
     transform: rotate(45deg);
     
     z-index: 1;
+}
+
+.tabs_sobre {
+    display: flex;
+    justify-content: center;
+}
+
+.table-responsive tbody tr td,
+.table-responsive thead tr th {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+    .table-responsive tbody tr td,
+    .table-responsive thead tr th {
+        font-size: 10px;
+    } 
+}
+
+.table-responsive tbody tr td:first-child,
+.table-responsive thead tr th:first-child {
+    text-align: left;
 }
 
 /* Dark Timer */
