@@ -50,7 +50,17 @@
 
         #langs a:hover,
         .localPicker .ativo {
-            color: #fcd500;
+            color: #fcd500 !important;
+        }
+
+        @media (max-width: 1024px) {
+            .localPicker {
+                display: flex;
+    align-items: center;
+            }
+            .localPicker a {
+                text-align: center !important;
+            }
         }
 
         .nav-tabs svg:hover {
@@ -59,6 +69,46 @@
 
         .nav-tabs .active svg {
             fill: #fcd500;
+        }
+
+        .home-section {
+            min-height: 100vh;
+        }
+
+        .local-scroll .scroll-down i {
+            font-size: 36px;
+            width: 16px;
+            height: 16px;
+            margin-left: -11px;
+        }
+
+        .local-scroll .scroll-down::before {
+            background-color: transparent;
+        }
+
+        @media (max-width: 991px) {
+            .image_banner {
+                top: 50% !important;
+                left: 50% !important;
+                transform: translate(-50%, -120%) !important;
+                text-align: center;
+            }
+
+            .image_banner img {
+                min-width: 138px;
+                width: 24vh !important;
+                height: auto !important;
+            }
+
+            .text_banner {
+                top: 50% !important;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .text_banner span {
+                font-size: 13px !important;
+            }
         }
     </style>
 </head>
@@ -88,19 +138,20 @@
 
 
 
-                        <div class="caption customin customout tp-resizeme hs-line-14 font-alt" data-x="center"
-                            data-hoffset="0" data-y="center" data-voffset="-14"
+                        <div class="caption image_banner customin customout tp-resizeme hs-line-14 font-alt"
+                            data-x="center" data-hoffset="0" data-y="center" data-voffset="-14"
                             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-speed="800" data-start="1200" data-startslide="1" data-easing="Power4.easeOut"
                             data-endspeed="500" data-endeasing="Power4.easeIn">
 
-                            <img src="assets/images/elementos/logo.svg" style="width: 300px; height: 108px;" alt="">
+                            <img src="assets/images/elementos/logo.svg" style="width: 100% !important; height: 108px;"
+                                alt="">
 
                         </div>
 
 
-                        <div class="caption customin customout tp-resizeme" data-x="center" data-hoffset="0"
+                        <div class="caption text_banner customin customout tp-resizeme" data-x="center" data-hoffset="0"
                             data-y="center" data-voffset="83"
                             data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -109,7 +160,7 @@
 
                             <div class="local-scroll">
 
-                                <p class="uppercase yellow" style="font-size: 21px;" >
+                                <p class="uppercase yellow" style="font-size: 17px; margin-top: 40px;">
                                     <span data-trans-banner_title>
 
                                     </span>
@@ -122,6 +173,13 @@
                     </li>
                     <!-- End Slide Item -->
                 </ul>
+                <!-- Scroll Down -->
+                <div class="local-scroll">
+                    <a href="#sobre" class="scroll-down" style="z-index: 999;">
+                        <i class="fa fa-angle-down scroll-down-icon yellow"></i>
+                    </a>
+                </div>
+                <!-- End Scroll Down -->
                 <div class="tp-bannertimer tp-bottom"></div>
             </div>
         </div>
@@ -749,13 +807,13 @@
                         <table class="table table-hover table-responsive">
                             <thead>
                                 <tr>
-                                    <th >
+                                    <th>
                                         <span data-trans-table_title1></span>
                                     </th>
-                                    <th >
+                                    <th>
                                         <span data-trans-table_title2></span>
                                     </th>
-                                    <th >
+                                    <th>
                                         <span data-trans-table_title3></span>
                                     </th>
                                 </tr>
@@ -774,7 +832,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        Alzjezur
+                                        Aljezur
                                     </td>
                                     <td>
                                         115 €
@@ -1033,7 +1091,7 @@
                                         245 €
                                     </td>
                                     <td>
-                                        70 €
+                                        270 €
                                     </td>
                                 </tr>
                                 <tr>
@@ -1137,7 +1195,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        punta humbria | <span data-trans-table_spain></span>
+                                        punta umbria | <span data-trans-table_spain></span>
                                     </td>
                                     <td>
                                         120 €
@@ -1592,7 +1650,8 @@
                     <!-- Copyright -->
                     <div class="footer-copy font-alt">
                         <a href="" target="_blank">&copy; DriveYou |
-                            Todos os dereitos reservados</a>.
+
+                            <span data-trans-footer_copy></span></a>.
                     </div>
                     <!-- End Copyright -->
 

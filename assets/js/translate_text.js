@@ -10,7 +10,7 @@ var txt = {
         "sobre_title1": "As suas viagens em boas mãos",
         "sobre_text1_part_1": "Com profissionalismo e discrição prestamos serviços de transfers de e para o aeroporto, eventos corporativos, serviços às ordens e passeios turísticos.",
         "sobre_text1_part_2": "Se necessita de viajar entre resorts ou Hotéis, ir à praia, ao shopping, uma simples ida ao supermercado, fazer compras, visitar uma outra cidade, ir jogar uma partida de golfe, buscar um amigo, reuniões, casamentos ou apenas passear, estamos disponíveis para organizar qualquer transporte que seja necessário.",
-        "sobre_title2": "Vantagens de um Transfere privado",
+        "sobre_title2": "Vantagens de um Transfer privado",
         "sobre_text2_part_1": "A maior parte das empresas de transferes cobram por cliente e não por viagem, isto quer dizer que muitas vezes o cliente depois de chegar ao aeroporto de Faro, pode ter que esperar por outras pessoas que vão para o mesmo destino. No nosso caso terá um motorista privado à sua espera nas chegadas do aeroporto, pronto para o levar ao seu destino. ",
         "sobre_text2_part_2": "Outra das vantagens é sem dúvida a rapidez com que chega, pois não tem que passar por outros locais a deixar outros clientes, é um serviço directo, de nós para si.",
         "sobre_title3": "Transportamos os seus animais",
@@ -24,11 +24,11 @@ var txt = {
         "service_diamond_title": "Serviço privado",
         "service_diamond_text": "O facto de não partilhar a nossa viatura com outros clientes, faz com que não existam outras bagagens que não as suas, e que não hajam outras paragens que não o seu destino final de férias.",
         "service_certificad_title": "Certificados",
-        "service_certificad_text": "Somos certificados e licenciados pelo aeroporto de Faro para o serviço de transfers, e cumprimos com todos os requisitos de segurança estipulados.",
+        "service_certificad_text": "Somos certificados e licenciados para o serviço de transfers, e cumprimos com todos os requisitos de segurança estipulados.",
         "service_fixas_title": "Tarifas fixas",
         "service_fixas_text": "Na nossa empresa o cliente sabe o preço final da viagem antes de a nossa viatura arrancar, ao contrário dos serviços normais como táxis públicos.",
         "service_24_title": "Serviço 24/7",
-        "service_24_text": "Garantimos aos nossos clientes um serviço 24 horas por dia, 7 dias por semana e 365 dias por anos, estamos sempre ao seu dispor.",
+        "service_24_text": "Garantimos aos nossos clientes um serviço 24 horas por dia, 7 dias por semana e 365 dias por ano, estamos sempre ao seu dispor.",
         "service_bagagem_title": "Bagagem",
         "service_bagagem_text": "Apenas o espaço do nosso veículo estabelece o limite da sua bagagem, pois para além de não ser cobrado este serviço (é cobrado no serviço de táxi comum), não existe limite do número de volumes.",
         "service_reservas_title": "Reservas online",
@@ -58,7 +58,8 @@ var txt = {
         "table_title1": "Destinos",
         "table_title2": "Preço de 1 a 4 passageiros",
         "table_title3": "Preço de 1 a 8 passageiros",
-        "table_spain": "Espanha"
+        "table_spain": "Espanha",
+        "footer_copy": "Todos os direitos reservados"
     },
     "en": {
         "navbar": "Home",
@@ -119,7 +120,8 @@ var txt = {
         "table_title1": "Destinations",
         "table_title2": "Price from 1 to 4 passenger",
         "table_title3": "Price from 1 to 8 passengers",
-        "table_spain": "Spain"
+        "table_spain": "Spain",
+        "footer_copy": "ALL RIGHTS RESERVED"
     }
 };
 $(function () {
